@@ -3,7 +3,7 @@
     <aside>
       <div class="user-info">
         <div class="img">
-          <img src="../../assets/user.jpeg" alt="" />
+          <img src="../../assets/touxiang.png" alt="" style="width: 100%;height: 100%;" />
         </div>
         <div class="user-name">yBlog</div>
       </div>
@@ -32,7 +32,7 @@
               @input="searchArticle"
             />
           </div>
-          <div>
+          <!-- <div>
             <el-dropdown
               class="filter-dropdown"
               trigger="click"
@@ -66,10 +66,10 @@
                 <el-dropdown-item command="year">最近一年</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
-            <!-- <el-button class="filter-add" type="success" @click="addArticle">
+            <el-button class="filter-add" type="success" @click="addArticle">
               <i class="el-icon-plus"></i>新增
-            </el-button> -->
-          </div>
+            </el-button>
+          </div> -->
         </div>
         <div class="articles">
           <ArticleList :articleList="articleList"></ArticleList>

@@ -6,7 +6,7 @@
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "server": ""
+    "server": "nodemon server/app.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
